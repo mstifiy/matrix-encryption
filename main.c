@@ -23,8 +23,8 @@ char codeList[] = { '^','a','b','c','d','e','f',
 					'u','v','w','x','y','z','!',
 					',','.','?','\'' };
 int keyMatrix[KEYORDER][KEYORDER] = { {1,1,1},
-									  {-1,0,1},
-									  {0,1,1} };
+				      {-1,0,1},
+				      {0,1,1} };
 double invKeyMat[KEYORDER][KEYORDER] = { 0 };
 char text[MAX] = { '\0' };
 int **originalMatrix;
